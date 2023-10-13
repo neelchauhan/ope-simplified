@@ -1,0 +1,21 @@
+[package]
+name = "ope-simplified"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/SwannHERRERA/liserk-encrypt"
+readme = "./README.md"
+license = "MIT"
+license-file = "./LICENSE"
+description = "OPE (order preserving encryption) algorithms for liserk zero knowledge database"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+block-modes = "0.9.1"
+hmac = "0.12.1"
+rand = "0.8"
+aes = "0.8"
+sha2 = "0.10.7"
+openssl = "0.10.55"
+ctr = "0.9.2"
+cipher = "0.4.4"
